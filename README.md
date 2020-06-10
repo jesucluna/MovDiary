@@ -41,7 +41,7 @@ All notable changes to this project will be documented in this file. The format 
 - **Fixed** for any bug fixes.
 - **Security** in case of vulnerabilities.
 
-## [1.0.0] - 2020-06-09
+## [1.0.1] - 2020-06-09
 ### Added
 
 - `views` folder where you can see templates for views to do with ReactJS.

@@ -44,7 +44,7 @@ All notable changes to this project will be documented in this file. The format 
 ## [1.0.0] - 2020-06-09
 ### Added
 
-- `views` folder when you can see templates for views to do with ReactJS.
+- `views` folder where you can see templates for views to do with ReactJS.
 
 
 ## [1.0.0] - 2020-06-09

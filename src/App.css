@@ -222,18 +222,19 @@ a:link:hover{
 
 .date{
   text-align:center;
-  background: aliceblue;
+  background: transparent;
 }
 .content{
   margin-left: auto;
   margin-right: auto;
-  background: aliceblue;
+  background: transparent;
 }
 
 .bt{
   padding:0%;
   margin-left: 9%;
   margin-right: auto;
+  background: transparent;
 }
 .btn{
   margin-left: auto;

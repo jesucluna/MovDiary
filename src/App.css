@@ -224,6 +224,11 @@ a:link:hover{
   text-align:center;
   background: transparent;
 }
+.dater{
+  text-align:center;
+  background: transparent;
+  font-weight: bold;
+}
 .content{
   margin-left: auto;
   margin-right: auto;

@@ -27,7 +27,7 @@ class Modal extends Component {
                     ref="modal"
                 >
                     <p className="date"><img className="pequena" src={process.env.PUBLIC_URL +  this.props.image} alt={this.props.title}/></p>
-                    <p className="date"><strong>Release date: {this.props.date}</strong></p>
+                    <p className="dater">Release date: {this.props.date}</p>
                     <p className="content">{this.props.content}</p>
 
                 </PureModal>

@@ -296,9 +296,22 @@ a:link:hover{
   border-radius: 0%;
 
 }
+.formsearch{
+  background: transparent;
+  margin-top: 4%;
+}
 
 @media(max-width:350px){
   .ho{
     display: none;
+  }
+}
+
+@media(max-width:576px){
+  .formsearch{
+    display: block;
+  }
+  .btsearch, .placeback{
+    border-radius: 4px;
   }
 }

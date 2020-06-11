@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8dbbfb965131a6cc6ef08f8c6ba5ad5d",
+    "revision": "5ed7e78b250395323a175c548f0ec185",
     "url": "/MovDiary/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MovDiary/static/css/2.7f6cef89.chunk.css"
   },
   {
-    "revision": "732fc7f1c2365f762a1c",
+    "revision": "56d60ecb828c655aff72",
     "url": "/MovDiary/static/css/main.6e1a262a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MovDiary/static/js/2.b5c3554f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "732fc7f1c2365f762a1c",
-    "url": "/MovDiary/static/js/main.834bd297.chunk.js"
+    "revision": "56d60ecb828c655aff72",
+    "url": "/MovDiary/static/js/main.556465ae.chunk.js"
   },
   {
     "revision": "c9f93413ffb4e8b8bd3b",

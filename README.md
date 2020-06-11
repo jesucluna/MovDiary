@@ -1,3 +1,6 @@
+# Simple Screencast (Demo)
+![Simple Demo](./screencast/Screencast.gif)
+
 # Author
 - Jesus Caraballo
 
@@ -41,6 +44,14 @@ All notable changes to this project will be documented in this file. The format 
 - **Fixed** for any bug fixes.
 - **Security** in case of vulnerabilities.
 
+## [2.1.0] - 2020-06-11
+### Added
+- `Search` component.
+- `Screencast` in order to take a view of general views.
+
+### Changed
+- `Add` page to simulate last Optional view from search a movie (this is only static template).
+
 ## [2.0.0] - 2020-06-11
 ### Added
 - `pages` folder inside `components` for make different views.
@@ -48,13 +59,14 @@ All notable changes to this project will be documented in this file. The format 
 - `Home` and `PopUp Modal` components in order to simulate Main Views.
 - `Menu` component in order to simulate one of the Optional Views.
 - `Menu bar` static for navigate trhough pages. 
-- Initial edition for other pages inside app.
+- Simple and initial edition for other pages inside app.
+
+### Removed
+- `PopUp` component.
 
 ## [1.0.1] - 2020-06-09
 ### Added
-
 - `views` folder where you can see templates for views to do with ReactJS.
-
 
 ## [1.0.0] - 2020-06-09
 ### Added

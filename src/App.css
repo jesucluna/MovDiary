@@ -275,6 +275,22 @@ a:link:hover{
 .errorc{
   text-align: center;
 }
+
+.placeback{
+  font-family: 'Grenze', serif;
+  font-size: 17px;
+  border-radius: 0%;
+}
+
+.btsearch{
+  font-family: 'Grenze', serif;
+  font-size: 17px;
+  background: #158E00;
+  color: aliceblue;
+  border-radius: 0%;
+
+}
+
 @media(max-width:350px){
   .ho{
     display: none;

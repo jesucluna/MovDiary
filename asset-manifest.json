@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MovDiary/static/css/main.06af70c1.chunk.css",
+    "main.js": "/MovDiary/static/js/main.9d3ad091.chunk.js",
+    "main.js.map": "/MovDiary/static/js/main.9d3ad091.chunk.js.map",
+    "runtime-main.js": "/MovDiary/static/js/runtime-main.2dadb571.js",
+    "runtime-main.js.map": "/MovDiary/static/js/runtime-main.2dadb571.js.map",
+    "static/css/2.7f6cef89.chunk.css": "/MovDiary/static/css/2.7f6cef89.chunk.css",
+    "static/js/2.b5c3554f.chunk.js": "/MovDiary/static/js/2.b5c3554f.chunk.js",
+    "static/js/2.b5c3554f.chunk.js.map": "/MovDiary/static/js/2.b5c3554f.chunk.js.map",
+    "index.html": "/MovDiary/index.html",
+    "precache-manifest.7314e4d1703af2df2ab13716403874b6.js": "/MovDiary/precache-manifest.7314e4d1703af2df2ab13716403874b6.js",
+    "service-worker.js": "/MovDiary/service-worker.js",
+    "static/css/2.7f6cef89.chunk.css.map": "/MovDiary/static/css/2.7f6cef89.chunk.css.map",
+    "static/css/main.06af70c1.chunk.css.map": "/MovDiary/static/css/main.06af70c1.chunk.css.map",
+    "static/js/2.b5c3554f.chunk.js.LICENSE.txt": "/MovDiary/static/js/2.b5c3554f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dadb571.js",
+    "static/css/2.7f6cef89.chunk.css",
+    "static/js/2.b5c3554f.chunk.js",
+    "static/css/main.06af70c1.chunk.css",
+    "static/js/main.9d3ad091.chunk.js"
+  ]
+}

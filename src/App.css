@@ -1,17 +1,282 @@
+*{
+  background: #050606;
+}
+h1{
+  color:aliceblue;
+  font-family: 'Grenze', serif; 
+  background: #08212f;
+}
+
+.headertitle{
+  font-family: 'Grenze', serif; 
+  font-weight: bold;
+  text-align: center;
+  color:aliceblue;
+  background: transparent;
+}
+
+strong{
+  background: aliceblue;
+}
+p{
+  font-family: 'Grenze', serif;
+  background: aliceblue;
+}
+
+.bar{
+  padding-left: 2%;
+  max-width: 30px;
+}
+.iconize{
+  padding: 0%;
+  max-width: 30px;
+}
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hom{
+  background: #08212f;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  max-height:100%;
+  overflow: auto;
+  
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
+a:link:hover{
+  font-weight: bold;
+}
+
+.litem{
+  background: #0b151b;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 2px solid rgba(0,0,0,.5);
+  border-top: 2px solid rgba(0,0,0,.5);
+  margin: 0%;
+  margin-bottom: 3px;
+}
+
+.litem:hover{
+  background: #53aad6;
+}
+.limage{
+  background: #0b151b;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: rgba(0,0,0,.5) 0 5px 10px;
+  padding-left: 7%;
+} 
+.ltitle{
+  background: #0b151b;
+  width: 100%;
+  margin: 0%;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.standardtitle{
+  height: 30px;
+  background: #0b151b;
+  font-family: 'Grenze', serif;
+  color:aliceblue;
+  text-align: start;
+  font-size: 20px;
+
+}
+
 .main{
-    border-bottom: 2px solid black;   
-    border-left: 2px solid black;
-    border-right: 2px solid black;
     margin-left: auto;
     margin-right: auto;
     max-width: 350px;
     width: 100%;
-    height: auto;
+    max-height:100%;
     overflow: auto;
+    background: #08212F;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .pop{
     background: burlywood;
     height: auto;
     overflow: auto;
+}
+
+/*Parte del menu del lado izquierdo*/
+.menubox{
+    width: 100%;
+    background: #00466a;
+    margin:0%;
+    padding-top: 5px;
+  }
+  
+  #btn{
+    display: none; /*Se oculta el boton de menu para mostrarlos cuando la pantalla este mas pequeña, en el responsive design*/
+  }
+  
+  .menubox label{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: #00466a;
+  }
+  
+  label i{
+    color: aliceblue;
+    font-size: 22px;
+    background: #00466a;
+  }
+  
+  
+  .menubox label:hover{
+    cursor: pointer;
+  }
+  /*Parte visible del menu en pantalla*/
+  .menu{
+    position: absolute;
+    z-index: 3;
+    background: #1c2a31;
+    width: 130px;
+    height: 94%;
+    margin-left: -100%;
+    margin-top: 27px;
+    transition: all 0s; 
+    box-shadow: rgba(0,0,0,.5) 0 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .menu li{
+    display: block;
+    background: #1c2a31;
+  }
+
+  .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    flex-direction: row;
+    
+  }
+  
+  .menu li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Grenze', serif; 
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #1c2a31;
+    padding: 7px 10px;
+
+  }
+  .menu li a:hover{
+    background: #151f25;
+  }
+
+  .menu li i{
+    background: transparent;
+  }
+  #btn:checked ~ .menu{
+    margin-left:0;
+  } 
+
+ .home{
+    color: aliceblue;
+    font-size: 15px;
+  }
+
+  .page{
+    color: aliceblue;
+    font-size: 90px;
+    background: transparent;
+  }
+
+  img.small{
+    width: 100%;
+    overflow: hidden;
+    background: #e8d9b7;
+    border-radius: 2.8px;
+  }
+  img.pequena{
+    width: 50%;
+    overflow: hidden;
+    background: #e8d9b7;
+    border-radius: 2px;
+    box-shadow: rgba(0,0,0,.5) 0 5px 10px;
+}
+
+.date{
+  text-align:center;
+  background: aliceblue;
+}
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  background: aliceblue;
+}
+
+.bt{
+  padding:0%;
+  margin-left: 9%;
+  margin-right: auto;
+}
+.btn{
+  margin-left: auto;
+  margin-right: auto;
+  background: #050606;
+}
+
+.standard{
+  height: 30px;
+  background: #00466a;
+  font-family: 'Grenze', serif;
+  color:aliceblue;
+  text-align: center;
+}
+
+.searchicon{
+  width: 25px;
+  height: 25px;
+  background: #158E00;
+  border-radius: 4px;
+}
+.searchicon i{
+  color: aliceblue;
+  background: transparent;
+}
+
+.homi{
+  background: #08212f;
+  height: 94vh;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorc{
+  text-align: center;
+}
+@media(max-width:350px){
+  .ho{
+    display: none;
+  }
 }

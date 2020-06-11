@@ -8,7 +8,7 @@ const Search = () => {
             <label htmlFor="moviename" className="sr-only">Searching for a Movie...</label>
             <input type="text" className="form-control placeback" id="moviename" placeholder="Ex. American Beauty"/>
         </div>
-        <button type="submit" className="btn btn-black btsearch">Search</button>
+        <a href="/" className="btn btn-black btsearch">Search</a>
     </form>
   );
 }

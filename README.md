@@ -43,6 +43,10 @@ All notable changes to this project will be documented in this file. The format 
 - **Fixed** for any bug fixes.
 - **Security** in case of vulnerabilities.
 
+## [2.1.1] - 2020-06-11
+### Changed
+- `Search` component for movil views.
+
 ## [2.1.0] - 2020-06-11
 ### Added
 - `Search` component.

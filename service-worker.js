@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MovDiary/precache-manifest.e9ba07273018cced904038095c908185.js"
+  "/MovDiary/precache-manifest.c0504e9cdff3dc5c6fe08af7c89a6a07.js"
 );
 
 self.addEventListener('message', (event) => {
